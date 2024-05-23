@@ -1,0 +1,38 @@
+@import url('_header.css');
+@import url('_combo.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --Brown: #59291C;
+    --yellow: #FAAF18;
+    --orange: #ED7902;
+    --beige: #EFE1DA;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-attachment: var(--beige);
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

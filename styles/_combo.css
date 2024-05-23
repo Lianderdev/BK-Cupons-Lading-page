@@ -1,0 +1,15 @@
+.combo .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.combo .left-container strong {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 4s00;
+    line-height: 3.818rem;
+    text-transform: uppercase;
+    color: var(--yellow)
+}

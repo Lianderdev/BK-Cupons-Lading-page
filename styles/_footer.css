@@ -1,0 +1,54 @@
+footer {
+    background-color: var(--Brown);
+}
+
+footer .container {
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+footer .container .redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+footer .container .redes-sociais a {
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.789rem;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+footer .container .redes-sociais .logo-bk {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 0px 80px 0 80px;
+}
+
+footer .container .redes-sociais i{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: #5D2A1C;
+}
+
+footer .container p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    color: #979797;
+}

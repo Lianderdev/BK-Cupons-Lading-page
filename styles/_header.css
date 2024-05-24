@@ -1,5 +1,5 @@
 header {
-    z-index: 100;
+    z-index: 200;
     width: 100%;
     background-color: #efe1dad7;
 }
@@ -21,6 +21,14 @@ header .container nav ul {
     gap: 50px;
 }
 
+header .container .navegation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+}
+
 header .container nav ul li {
     display: flex;
     align-items: center;
@@ -35,14 +43,14 @@ header .container nav ul li i {
 
 header .container nav ul li a {
     font-size: 1.4rem;
-    font-weight: 800;
+    font-weight: 400;
     text-transform:uppercase ;
     line-height: 1.67rem;
     padding: 2rem 2rem 2rem 0.5rem;
     color: var(--Brown);
 }
 
-header .container nav ul li .button-menu-mobile {
+header .container .button-menu-mobile {
     width: 25px;
     height: 23px;
     display: flex;
@@ -51,16 +59,39 @@ header .container nav ul li .button-menu-mobile {
     justify-content: space-between;
 }
 
-header .container nav ul li .button-menu-mobile .line:not(:nth-child(2)) {
+header .container  .button-menu-mobile .line:not(:nth-child(2)) {
     width: 80%;
     height: 3px;
     border-radius: 3px;
     background-color: var(--orange);
 }
 
-header .container nav ul li .button-menu-mobile .line {
+header .container .button-menu-mobile .line {
     width: 100%;
     height: 3px;
     border-radius: 3px;
     background-color: var(--Brown);
+}
+
+@media (max-width: 760px) {
+    header .container nav ul {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 660px) {
+    header .container img {
+        width: 20.3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 660px) {
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container nav ul li .button-menu-mobile {
+        display: block;
+    }
 }

@@ -2,12 +2,13 @@
 @import url('_combo.css');
 @import url('_ofertas.css');
 @import url('_coupons-snacks.css');
+@import url('_footer.css');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Flame-Regular', sans-serif;
 }
 
 :root {
@@ -42,4 +43,15 @@ ul {
 button {
     border: none;
     cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Flame-Regular';
+    src: url('../fonts/FlameRegular.otf') format('truetype');
+}
+
+@media (max-width: 660px) {
+    html {
+        font-size: 50%;
+    }
 }

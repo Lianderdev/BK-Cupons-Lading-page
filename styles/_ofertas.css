@@ -47,7 +47,7 @@
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 3rem;
-    letter-spacing: -0.40123456716537476px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     z-index: 1;
 }
@@ -57,7 +57,7 @@
     font-weight: 900;
     line-height: 4rem;
     text-transform: uppercase;
-    letter-spacing: -0.6520061492919922px;
+    letter-spacing: 2px;
     color: var(--Brown);
     z-index: 1;
 }
@@ -67,7 +67,7 @@
     margin-right: 25px;
     border-radius: 10px;
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 400;
     line-height: 2.863rem;
     letter-spacing: -0.3009259104728699px;
     color: #475993;

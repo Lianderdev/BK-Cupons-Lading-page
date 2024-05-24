@@ -1,15 +1,185 @@
 .combo .container {
-    height: 100vh;
+    height: 623px;
     display: flex;
     align-items: center;
-    background-color: aqua;
+    justify-content: space-between;
+}
+
+/* Left container */
+.combo .left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .combo .left-container strong {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.2rem;
-    font-weight: 4s00;
+    font-weight: 600;
     line-height: 3.818rem;
     text-transform: uppercase;
-    color: var(--yellow)
+    color: var(--yellow);
+    position: relative;
 }
+
+.combo .left-container strong::after {
+    content: '';
+    display: block;
+    width: 288px;
+    height: 3px;
+    background-image: url('/img/Path\ 4.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
+
+.combo .left-container .info-value {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.combo .left-container .info-value .value {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.combo .left-container .info-value .value h2 {
+    font-size: 5.0rem;
+    font-weight: 900;
+    line-height: 4rem;
+    letter-spacing: 0.3rem;
+    margin-left: -3px;
+    color: var(--yellow);
+}
+
+.combo .left-container .info-value .value p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #979797;
+}
+
+.combo .left-container .info-value button {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.909rem;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: var(--Brown);
+    position: relative;
+}
+
+.combo .left-container .info-value button::after {
+    content: "";
+    display: block;
+    width: 57px; /* Ajusta según tus necesidades */
+    height: 57px; /* Ajusta según tus necesidades */
+    background-image: url('/img/Object.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -10px;
+    right: -90px;
+}
+
+/* right container */
+.combo .right-container {
+    width: 528px;
+    height: 623px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: var(--yellow);
+    position: relative;
+    margin-right: 25px;
+}
+
+.combo .right-container::after {
+    content: '';
+    display: block;
+    width: 528px;
+    height: 50px;
+    background-color: inherit;
+    position: absolute;
+    bottom: -50px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.combo .right-container img {
+    position: absolute;
+}
+
+.combo .right-container .whopper-img {
+    bottom: 40px;
+    z-index: 5;
+}
+
+.combo .right-container .pepsi-img {
+    top: 110px;
+    left: -90px;
+}
+
+.combo .right-container .batata-img{
+    top: 110px;
+    right: -90px;
+}
+
+.combo .right-container .bitmap-img{
+    top: 80px;
+}
+
+.combo .right-container .date-promotional {
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+.combo .right-container .date-promotional i {
+    font-size: 15px;
+}
+
+
+.combo .right-container .date-promotional p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: -0.4285714328289032px;
+    position: relative;
+}
+
+.combo .right-container .date-promotional strong {
+    font-weight: 900;
+}
+
+.combo .right-container .date-promotional p::after {
+    content: '';
+    display: block;
+    width: 78px;
+    height: 14px;
+    background-image: url('/img/Path\ 6\ Copy.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -90px;
+    top: 0;
+}
+
+.combo .right-container .date-promotional p::before {
+    content: '';
+    display: block;
+    width: 78px;
+    height: 14px;
+    background-image: url('/img/Path\ 6.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -100px;
+    top: 0;
+}
+

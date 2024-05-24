@@ -1,0 +1,78 @@
+.ofertas {
+    display: flex;
+    align-items: center;
+    background-color: var(--orange);
+    height: 200px;
+    overflow: hidden;
+}
+
+.ofertas .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ofertas .container .ofertas-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.ofertas .container .ofertas-left::before {
+    content: '';
+    display: block;
+    width: 274px;
+    height: 285px;
+    background-image: url('/img/Combined\ Shape\ \(1\).png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -55px;
+    left: -100px;
+}
+
+.ofertas .container .ofertas-left::after {
+    content: '';
+    display: block;
+    width: 110px;
+    height: 91px;
+    background-image: url('/img/Group\ 6.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -150px;
+}
+
+
+.ofertas .container .ofertas-left p {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.40123456716537476px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.ofertas .container .ofertas-left h3 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 4rem;
+    text-transform: uppercase;
+    letter-spacing: -0.6520061492919922px;
+    color: var(--Brown);
+    z-index: 1;
+}
+
+.ofertas .container .ofertas-right button {
+    padding: 20px 100px;
+    margin-right: 25px;
+    border-radius: 10px;
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.863rem;
+    letter-spacing: -0.3009259104728699px;
+    color: #475993;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}

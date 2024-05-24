@@ -1,5 +1,7 @@
 @import url('_header.css');
 @import url('_combo.css');
+@import url('_ofertas.css');
+@import url('_coupons-snacks.css');
 
 * {
     margin: 0;
@@ -20,7 +22,7 @@ html {
 }
 
 body {
-    background-attachment: var(--beige);
+    background-color: var(--beige);
 }
 
 .container {
@@ -35,4 +37,9 @@ a {
 
 ul {
     list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
 }

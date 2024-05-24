@@ -1,8 +1,7 @@
 header {
+    z-index: 100;
     width: 100%;
     background-color: #efe1dad7;
-    position: fixed;
-    top: 0;
 }
 
 header .container {

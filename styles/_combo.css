@@ -248,7 +248,7 @@
     }
 
     .combo .right-container .date-promotional {
-        bottom: -39px;
+        bottom: 0px;
     }
 
 }
@@ -316,6 +316,10 @@
     .combo .right-container .imagens .bitmap-img{
         width: 100px;
         top: -100px;
+    }
+
+    .combo .right-container .date-promotional {
+        bottom: -35px;
     }
 
    

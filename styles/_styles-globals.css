@@ -50,16 +50,31 @@ button {
     src: url('../fonts/FlameRegular.otf') format('truetype');
 }
 
-@media (max-width: 540px) {
+@media (max-width: 1140px) {
     html {
-        font-size: 56%;
+        font-size: 55%;
     }
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 1086px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 600px) {
     html {
         font-size: 50%;
     }
 }
+
+
+@media (max-width: 460px) {
+    html {
+        font-size: 45%;
+    }
+}
+
 
 

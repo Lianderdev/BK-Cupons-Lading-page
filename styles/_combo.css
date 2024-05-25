@@ -355,7 +355,7 @@
 
 @media (max-width: 500px) {
     .combo .container {
-        height: 550px;
+        height: 570px;
     }
 
     .combo .container .left-container {
@@ -388,5 +388,24 @@
     .combo .right-container .imagens .bitmap-img{
         width: 70px;
         top: -80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .combo .right-container .imagens .pepsi-img {
+        width: 170px;
+        top: -20px;
+        left: 10px;
+    }
+    
+    .combo .right-container .imagens .batata-img{
+        width: 170px;
+        top: -30px;
+        right: 20px;
+    }
+
+    .combo .right-container .imagens .bitmap-img{
+        width: 70px;
+        top: -30px;
     }
 }

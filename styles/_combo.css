@@ -355,7 +355,7 @@
 
 @media (max-width: 500px) {
     .combo .container {
-        height: 570px;
+        height: 550px;
     }
 
     .combo .container .left-container {
@@ -406,6 +406,6 @@
 
     .combo .right-container .imagens .bitmap-img{
         width: 70px;
-        top: -30px;
+        top: -40px;
     }
 }

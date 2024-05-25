@@ -16,6 +16,7 @@ footer .container {
 
 
 footer .container .redes-sociais {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -84,9 +85,10 @@ footer .container p {
     }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 937px) {
     footer .container {
         height: 350px;
+        gap: 30px;
     }
 
     footer .container .redes-sociais {
@@ -94,13 +96,22 @@ footer .container p {
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 740px) {
     footer .container {
         padding-top: 40px;
     }
 
     footer .container .redes-sociais {
         padding: 0;
+    }
+
+    footer .container .redes-sociais .logo-bk {
+        bottom: 50px;
+    }
+
+    footer .container .redes-sociais i{
+        width: 30px;
+        height: 30px;
     }
 }
 

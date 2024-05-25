@@ -54,6 +54,7 @@ footer .container p {
     line-height: 2.3rem;
     letter-spacing: 1px;
     color: #979797;
+    text-align: center;
 }
 
 @media (max-width: 1044px) {
@@ -94,8 +95,19 @@ footer .container p {
 }
 
 @media (max-width: 860px) {
+    footer .container {
+        padding-top: 40px;
+    }
+
     footer .container .redes-sociais {
         padding: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    footer .container .redes-sociais i{
+        width: 20px;
+        height: 20px;
     }
 }
 

@@ -116,6 +116,7 @@
     border-radius: 0px 0px 15px 15px;
     
 }
+
 .combo .right-container .imagens {
     width: 528px;
     height: 600px;
@@ -224,32 +225,37 @@
 
     .combo .right-container .date-promotional {
         position: absolute;
-        bottom: -30px;
+        bottom: 0px;
     }
 
 
     .combo .right-container  .imagens .whopper-img {
         width: 400px;
-  
         z-index: 5;
     }
     
     .combo .right-container .imagens .pepsi-img {
-        width: 200px;
-        left: -20px;
+        width: 220px;
+        top: 90px;
+        left: -25px;
       
     }
     
     .combo .right-container .imagens .batata-img{
-        width: 200px;
-        right: 20px;
+        width: 220px;
+        top: 80px;
+        right: -10px;
+    }
+
+    .combo .right-container .date-promotional {
+        bottom: -39px;
     }
 
 }
 
 @media (max-width: 1086px) {
     .combo .container {
-        height: 610px;
+        height: 640px;
         flex-direction: column;
         align-items: start;
         margin-bottom: 110px;
@@ -311,6 +317,8 @@
         width: 100px;
         top: -100px;
     }
+
+   
 }
 
 @media (max-width: 600px) {
@@ -343,7 +351,7 @@
 
 @media (max-width: 500px) {
     .combo .container {
-        height: 530px;
+        height: 550px;
     }
 
     .combo .container .left-container {

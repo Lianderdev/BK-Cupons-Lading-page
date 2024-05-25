@@ -22,8 +22,8 @@
 .ofertas .container .ofertas-left::before {
     content: '';
     display: block;
-    width: 274px;
-    height: 285px;
+    width: 27.4rem;
+    height: 28.5rem;
     background-image: url('/img/Combined\ Shape\ \(1\).png');
     background-repeat: no-repeat;
     position: absolute;
@@ -34,12 +34,12 @@
 .ofertas .container .ofertas-left::after {
     content: '';
     display: block;
-    width: 110px;
-    height: 91px;
+    width: 11rem;
+    height: 9.1rem;
     background-image: url('/img/Group\ 6.svg');
     background-repeat: no-repeat;
     position: absolute;
-    right: -150px;
+    right: -120px;
 }
 
 
@@ -57,13 +57,13 @@
     font-weight: 900;
     line-height: 4rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: var(--Brown);
     z-index: 1;
 }
 
 .ofertas .container .ofertas-right button {
-    padding: 20px 100px;
+    padding: 2rem 10.3rem;
     margin-right: 25px;
     border-radius: 10px;
     font-size: 2.4rem;
@@ -73,6 +73,61 @@
     color: #475993;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
+    text-align: left;
 }
+
+
+@media (max-width: 1270px) {
+    .ofertas .container .ofertas-left::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1160px) {
+    .ofertas .container .ofertas-right button {
+        padding: 2rem 7rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .ofertas .container .ofertas-right button {
+        font-size: 20px;
+    }
+
+    .ofertas .container .ofertas-right button img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .ofertas .container .ofertas-right button {
+        padding: 1rem 3rem;
+    }
+
+}
+
+@media (max-width: 745px) {
+    .ofertas .container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .ofertas .container .ofertas-right button {
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 745px) {
+    .ofertas .container {
+        gap: 20px;
+    }
+}
+
+
+
+
+
+

@@ -85,14 +85,10 @@ footer .container p {
     }
 }
 
-@media (max-width: 937px) {
+@media (max-width: 957px) {
     footer .container {
         height: 350px;
         gap: 30px;
-    }
-
-    footer .container .redes-sociais {
-        padding: 0 20% 0 20%;
     }
 }
 
@@ -109,7 +105,7 @@ footer .container p {
         bottom: 50px;
     }
 
-    footer .container .redes-sociais i{
+    footer .container .redes-sociais i {
         width: 30px;
         height: 30px;
     }

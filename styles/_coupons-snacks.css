@@ -1,6 +1,6 @@
 .coupons-snacks {
     padding: 7rem 0 10rem 0;
-    background-color: #FFFFFF;
+    width: 100%;
 }
 
 .coupons-snacks .container {
@@ -130,32 +130,37 @@
 
 /* Snacks */ 
 .coupons-snacks .container .snacks{
-    padding-top: 10rem;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(3, 385px);
-    gap: 20px;
+    padding-top: 5rem;
+    display: flex;
+    gap: 30px;
 }
 
 .coupons-snacks .container .snack {
-    height: 493px;
+    width: 38rem;
+    height: 49.3rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     border-radius: 8px;
     background-color: #F5ECE7;
-    
     position: relative;
+}
+
+.coupons-snacks .container .snack .combo-snack {
+    width: 38rem;
+    height: 34.4rem;
+    object-fit: contain;
 }
 
 .coupons-snacks .container .snack img {
     width: 100%;
-    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
 }
 
 .coupons-snacks .container .snack p,
 .coupons-snacks .container .snack strong {
-    padding-left: 50px;
+    padding-left: 5rem;
 }
 
 
@@ -163,8 +168,9 @@
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.909rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     color: var(--Brown);
+    margin-top: 3rem;
 }
 
 .coupons-snacks .container .snack strong {
@@ -182,29 +188,103 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
     font-size: 20px;
     border-radius: 50%;
     color: var(--orange);
     background-color: #FFFFFF;
 }
 
-@media (max-width: 1100px) {
+.botton-snacks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
 
-    .coupons-snacks .coupons .coupon:nth-child(1)  {
-        padding-top: 50px;
+.botton-snacks a {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.67rem;
+    letter-spacing: 0.0176rem;
+    text-transform: uppercase;
+    color: var(--yellow);
+}
+
+.botton-snacks a span {
+    font-weight: 800;
+    color: var(--orange);
+    padding-left: 1rem;
+}
+
+
+.latest-video .container .top .swiper-pagination {
+    position: relative;
+    width: auto;
+    bottom: 0;
+    z-index: 200;
+}
+
+.latest-video .container .top .swiper-pagination .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    border-radius: 0;
+    background-color: #2F2F3B;
+    opacity: 1;
+}
+
+.latest-video .container .top .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #FFFF;
+}
+
+.latest-video .swiper-wrapper {
+    display: flex;
+    gap: 5px;
+}
+
+
+@media (max-width: 1090px) {
+    .coupons-snacks .container .snacks{
+        gap: 1px;
     }
-    
-    .coupons-snacks .coupons .coupon:first-child::before {
-        width: 86px;
-        height: 40px;
-        top: 20px; 
+
+    .coupons-snacks .container .snack {
+        width: 33rem;
+        height: 42rem;
+    }
+
+    .coupons-snacks .container .snack .combo-snack {
+        width: 33rem;
+        height: 25rem;
+    }
+
+    .coupons-snacks .container .snack p,
+    .coupons-snacks .container .snack strong {
+        padding-left: 3rem;
+    }
+
+    .coupons-snacks .container .snack p {
+        margin-top: 6rem;
     }
 }
 
+
+
+
 @media (max-width: 600px) {
+    .coupons-snacks .container .snacks{
+        gap: 1px;
+    }
     .coupons-snacks .coupons .coupon {
         padding: 10px 40px;
+    }
+
+    .coupons-snacks .container .snack .combo-snack {
+        height: 30.4rem;
+    }
+
+    .coupons-snacks .container .snack p {
+        margin-top: 1rem;
     }
 }

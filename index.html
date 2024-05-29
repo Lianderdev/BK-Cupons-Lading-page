@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="img/Logotipo_do_Burger_King.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/_styles-globals.css">
@@ -41,7 +42,7 @@
             <div class="container">
 
                 <div class="left-container">
-                    <strong>01  combo</strong>
+                    <strong>01 combo</strong>
 
                     <h1>Whooper</h1>
 
@@ -93,11 +94,10 @@
 
         <!--Section Cupons e Lanches-->
         <section class="coupons-snacks">
-
             <marquee behavior="" direction="">
                 <div class="coupons">
                     <div class="coupon">
-                        <p>Destaques <br> imperdíves</p>
+                        <p>Destaques <br> imperdíveis</p>
                     </div>
 
                     <div class="coupon">
@@ -119,46 +119,59 @@
                     </div>
                 </div>
             </marquee>
-        
+
             <div class="container">
-                <div class="snacks">
-                    <div class="snack">
-                        <img src="img/combo 1.jpg" alt="">
-                        <p>2 cheddar + Batata pq + free refil</p>
-                        <strong>R$ 15,90</strong>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
+                <div class="swiper snacks">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide snack">
+                            <div class="combo-snack">
+                                <img src="img/combo 1.jpg" alt="">
+                            </div>
+                            <p>2 cheddar + Batata pq + free refil</p>
+                            <strong>R$ 15,90</strong>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
 
-                    <div class="snack">
-                        <img src="img/combo 2.jpg" alt="">
-                        <p>2 cheddar + Batata pq + free refil</p>
-                        <strong>R$ 15,90</strong>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
+                        <div class="swiper-slide snack">
+                            <div class="combo-snack">
+                                <img src="img/combo 2.jpg" alt="">
+                            </div>
+                            <p>2 cheddar + Batata pq + free refil</p>
+                            <strong>R$ 15,90</strong>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
 
-                    <div class="snack">
-                        <img src="img/combo 3.jpg" alt="">
-                        <p>2 cheddar + Batata pq + free refil</p>
-                        <strong>R$ 15,90</strong>
-                        <i class="fa-regular fa-heart"></i>
+                        <div class="swiper-slide snack">
+                            <div class="combo-snack">
+                                <img src="img/combo 3.jpg" alt="">
+                            </div>
+                            <p>2 cheddar + Batata pq + free refil</p>
+                            <strong>R$ 15,90</strong>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
                     </div>
+                </div>
+
+                <div class="botton-snacks">
+                     <div class="swiper-pagination"></div>
+                    <a href="#">Confira todas ofertas bk <span>+</span></a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!--Footer--> 
+    <!--Footer-->
     <footer>
         <div class="container">
             <div class="redes-sociais"> 
                 <a href="#">Fale conosco</a>
                 <a href="#">Nossas lojas</a>
-                <a href="#">Politíca de privacidade</a>
+                <a href="#">Política de privacidade</a>
                 <a href="#">Site oficial</a>
-                
+
                 <img class="logo-bk" src="img/Logotipo_do_Burger_King.png" alt="">
 
-                <a href="#">Acopanhe nas redes sociais</a>
+                <a href="#">Acompanhe nas redes sociais</a>
 
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-facebook"></i>
@@ -168,4 +181,7 @@
             <p>TM & © 2018 Burger King Corporation. Todos os direitos reservados.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+</html>

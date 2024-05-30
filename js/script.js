@@ -3,26 +3,15 @@ var swiper = new Swiper(".snacks", {
     spaceBetween: 30,
     speed: 800,
     pagination: {
-      el: ".snacks .swiper-pagination",
+      el: "coupons-snacks .swiper-pagination",
       clickable: true,
     },
 
     breakpoints: {
-        320: {
-            slidesPerView: 1,
+        500: {
+            slidesPerView: 1.6,
             spaceBetween: 16,
         },
-
-        400: {
-            slidesPerView: 1.2,
-            spaceBetween: 10,
-        },
-
-        431: {
-            slidesPerView: 1.4,
-            spaceBetween: 10,
-        },
-
 
         536: {
             slidesPerView: 1.7,
@@ -35,43 +24,44 @@ var swiper = new Swiper(".snacks", {
             spaceBetween: 10,
         },
 
+        600: {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+        },
 
-
-        633: {
-            slidesPerView: 2.1,
+        638: {
+            slidesPerView: 1.6,
             spaceBetween: 10,
         },
 
 
 
         690: {
-            slidesPerView: 2.3,
-            spaceBetween: 10,
-        },
-
-
-        700: {
             slidesPerView: 1.7,
             spaceBetween: 10,
         },
 
-        775: {
+        750: {
             slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
-        857: {
+        840: {
             slidesPerView: 2.1,
             spaceBetween: 10,
         },
 
-
-        935: {
+        930: {
             slidesPerView: 2.3,
             spaceBetween: 10,
         },
 
-        1006: {
+        975: {
+        slidesPerView: 2.5,
+        spaceBetween: 10,
+        },
+
+        1000: {
             slidesPerView: 2.5,
             spaceBetween: 10,
         },
@@ -87,10 +77,8 @@ var swiper = new Swiper(".snacks", {
         },
 
         1200: {
-            slidesPerView: 3,
+            slidesPerView: 3.1,
             spaceBetween: 20,
         }
     }
 });
-
-
